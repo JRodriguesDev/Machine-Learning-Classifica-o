@@ -26,6 +26,5 @@ Neste desafio, o objetivo foi prever quais clientes de telecomunicações provav
 ### Tecnologias Utilizadas
 
 * **Linguagem:** Python
-* **Ambiente:** Jupyter Notebook
 * **Bibliotecas:** Pandas, NumPy, Scikit-learn
 * **Visualização:** Matplotlib, Seaborn
