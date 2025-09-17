@@ -15,11 +15,11 @@ Este repositório é um portfólio de projetos de Machine Learning, onde utilize
 
 #### 1. Titanic - Machine Learning from Disaster
 
-Este projeto aborda o clássico desafio do Kaggle de prever a sobrevivência de passageiros do Titanic. O trabalho envolveu análise de dados exploratória, engenharia de features e treinamento de modelos de classificação para obter o score final.
+Este projeto aborda o clássico desafio do Kaggle de prever a sobrevivência de passageiros do Titanic. O trabalho envolveu análise de dados exploratória, engenharia de features e treinamento de modelos de classificação para obter o score final de 76%.
 
 #### 2. Customer Churn Prediction 2020
 
-Neste desafio, o objetivo foi prever quais clientes de telecomunicações provavelmente iriam "abandonar" o serviço. O projeto inclui o tratamento de dados, seleção de features e a aplicação de modelos que resultaram em um alto grau de precisão.
+Neste desafio, o objetivo foi prever quais clientes de telecomunicações provavelmente iriam "abandonar" o serviço. O projeto inclui o tratamento de dados, seleção de features e a aplicação de modelos que resultaram em um score final de 99%.
 
 ---
 
