@@ -1,0 +1,9 @@
+,Model,Accuracy,Best_estimator,Best_params
+0,Rede Neural,0.8327590511860175,"MLPClassifier(hidden_layer_sizes=(100, 100), max_iter=3000, random_state=42,
+              tol=0.001)","{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 100), 'tol': 0.001}"
+1,Arvore,0.829450686641698,"DecisionTreeClassifier(max_depth=5, min_samples_leaf=5)","{'criterion': 'gini', 'max_depth': 5, 'max_features': None, 'min_samples_leaf': 5, 'min_samples_split': 2}"
+2,Floresta Randomica,0.8507365792759052,"RandomForestClassifier(max_depth=10, max_features=None, min_samples_leaf=2,
+                       min_samples_split=10, n_estimators=300)","{'bootstrap': True, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 300}"
+3,KNN,0.817116104868914,"KNeighborsClassifier(metric='euclidean', n_neighbors=7)","{'metric': 'euclidean', 'n_neighbors': 7, 'weights': 'uniform'}"
+4,Regressão,0.8226966292134831,"LogisticRegression(C=1, max_iter=1000, penalty='l1', solver='liblinear')","{'C': 1, 'penalty': 'l1', 'solver': 'liblinear'}"
+5,SVM,0.8316729088639201,"SVC(C=1, gamma=0.1)","{'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}"

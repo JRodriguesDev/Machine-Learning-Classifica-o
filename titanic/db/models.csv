@@ -1,0 +1,58 @@
+,Model,Accuracy,Best_estimator,Best_params,Accuracy_score,Classification_report
+0,Rede Neural,0.8425825418362731,"MLPClassifier(alpha=0.001, hidden_layer_sizes=(40, 40), max_iter=3000,
+              random_state=42, tol=0.001)","{'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (40, 40), 'tol': 0.001}",0.7757847533632287,"              precision    recall  f1-score   support
+
+         0.0       0.79      0.87      0.83       137
+         1.0       0.75      0.63      0.68        86
+
+    accuracy                           0.78       223
+   macro avg       0.77      0.75      0.75       223
+weighted avg       0.77      0.78      0.77       223
+"
+1,Arvore,0.8365897783808232,"DecisionTreeClassifier(criterion='entropy', max_depth=10, min_samples_split=10)","{'criterion': 'entropy', 'max_depth': 10, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 10}",0.7443946188340808,"              precision    recall  f1-score   support
+
+         0.0       0.76      0.85      0.80       137
+         1.0       0.71      0.57      0.63        86
+
+    accuracy                           0.74       223
+   macro avg       0.73      0.71      0.72       223
+weighted avg       0.74      0.74      0.74       223
+"
+2,Floresta Randomica,0.8440750791497059,"RandomForestClassifier(bootstrap=False, criterion='entropy', max_depth=10,
+                       max_features='log2', min_samples_leaf=2,
+                       min_samples_split=5, n_estimators=200)","{'bootstrap': False, 'criterion': 'entropy', 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}",0.7892376681614349,"              precision    recall  f1-score   support
+
+         0.0       0.83      0.82      0.83       137
+         1.0       0.72      0.73      0.73        86
+
+    accuracy                           0.79       223
+   macro avg       0.78      0.78      0.78       223
+weighted avg       0.79      0.79      0.79       223
+"
+3,KNN,0.8216870194482133,KNeighborsClassifier(metric='manhattan'),"{'metric': 'manhattan', 'n_neighbors': 5, 'weights': 'uniform'}",0.757847533632287,"              precision    recall  f1-score   support
+
+         0.0       0.79      0.83      0.81       137
+         1.0       0.71      0.64      0.67        86
+
+    accuracy                           0.76       223
+   macro avg       0.75      0.74      0.74       223
+weighted avg       0.75      0.76      0.76       223
+"
+4,Regressão,0.8202170963364994,"LogisticRegression(C=100, max_iter=1000, penalty='l1', solver='liblinear')","{'C': 100, 'penalty': 'l1', 'solver': 'liblinear'}",0.7847533632286996,"              precision    recall  f1-score   support
+
+         0.0       0.83      0.81      0.82       137
+         1.0       0.71      0.74      0.73        86
+
+    accuracy                           0.78       223
+   macro avg       0.77      0.78      0.77       223
+weighted avg       0.79      0.78      0.79       223
+"
+5,SVM,0.8381049298959745,"SVC(C=10, gamma=0.1)","{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}",0.7892376681614349,"              precision    recall  f1-score   support
+
+         0.0       0.82      0.84      0.83       137
+         1.0       0.73      0.71      0.72        86
+
+    accuracy                           0.79       223
+   macro avg       0.78      0.77      0.78       223
+weighted avg       0.79      0.79      0.79       223
+"
